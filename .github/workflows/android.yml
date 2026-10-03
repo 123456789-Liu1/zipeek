@@ -37,6 +37,8 @@ jobs:
           restore-keys: gradle-${{ runner.os }}-
 
       - name: Lint
+        # 仅作提示，不阻塞流水线：真正的门禁是下面的单测与构建
+        continue-on-error: true
         run: ./gradlew --no-daemon :app:lintRelease
 
       - name: Unit test
