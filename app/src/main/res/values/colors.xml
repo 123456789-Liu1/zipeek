@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 品牌主色 -->
+    <color name="brand">#FF2F6BFF</color>
+    <color name="brand_deep">#FF1B4FD8</color>
+    <color name="brand_soft">#FFE8EFFF</color>
+    <color name="accent">#FF0FB5A3</color>
+
+    <!-- 界面底色 -->
+    <color name="window_bg">#FFF7F8FC</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="surface_dim">#FFEFF1F7</color>
+    <color name="outline">#FFDDE1EC</color>
+    <color name="text_primary">#FF161A22</color>
+    <color name="text_secondary">#FF6B7280</color>
+    <color name="text_tertiary">#FF9AA1AE</color>
+    <color name="danger">#FFE5484D</color>
+
+    <!-- 压缩包格式识别色 -->
+    <color name="fmt_zip">#FFF5A524</color>
+    <color name="fmt_rar">#FF8B5CF6</color>
+    <color name="fmt_7z">#FF16A34A</color>
+    <color name="fmt_tar">#FF64748B</color>
+
+    <!-- 文件类型识别色 -->
+    <color name="type_folder">#FFF59E0B</color>
+    <color name="type_image">#FF10B981</color>
+    <color name="type_video">#FFF97316</color>
+    <color name="type_audio">#FFEC4899</color>
+    <color name="type_text">#FF0EA5E9</color>
+    <color name="type_code">#FF6366F1</color>
+    <color name="type_doc">#FF8B5CF6</color>
+    <color name="type_other">#FF94A3B8</color>
+
+    <color name="ic_white">#FFFFFFFF</color>
+    <color name="launcher_bg_start">#FF3B82F6</color>
+    <color name="launcher_bg_end">#FF6D5BF5</color>
+</resources>

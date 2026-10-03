@@ -1,0 +1,27 @@
+# 默认按 LF 提交，避免 gradlew 等脚本在 Linux/macOS 上因 CRLF 失效
+* text=auto eol=lf
+
+# Windows 批处理必须保持 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制文件不做任何转换
+*.jar binary
+*.apk binary
+*.aab binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.so binary
+
+# 明确声明为 UTF-8，避免中文注释在不同平台乱码
+*.kt text eol=lf
+*.kts text eol=lf
+*.xml text eol=lf
+*.md text eol=lf
+*.pro text eol=lf
+*.properties text eol=lf
+*.toml text eol=lf

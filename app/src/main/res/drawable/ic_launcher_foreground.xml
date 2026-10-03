@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 归档图标：箱体 + 封口条 + 观察孔，寓意"不解压直接看" -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M30,38h48a5,5 0 0 1 5,5v26a5,5 0 0 1 -5,5h-48a5,5 0 0 1 -5,-5v-26a5,5 0 0 1 5,-5z" />
+    <path
+        android:fillColor="#FFCBDBFF"
+        android:pathData="M25,46h58v5h-58z" />
+    <path
+        android:fillColor="#FF1B4FD8"
+        android:pathData="M45,59m-8,0a8,8 0 1,1 16,0a8,8 0 1,1 -16,0" />
+    <path
+        android:fillColor="#FF1B4FD8"
+        android:pathData="M50.8,64.8l7.5,7.5l-3.6,3.6l-7.5,-7.5z" />
+    <path
+        android:fillColor="#FFCBDBFF"
+        android:pathData="M30,32h48v4h-48z" />
+</vector>

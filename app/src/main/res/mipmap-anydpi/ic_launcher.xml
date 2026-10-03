@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 7.0 以下使用的完整图标（圆角底 + 前景图形） -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M22,4h64a18,18 0 0 1 18,18v64a18,18 0 0 1 -18,18h-64a18,18 0 0 1 -18,-18v-64a18,18 0 0 1 18,-18z">
+        <aapt:attr xmlns:aapt="http://schemas.android.com/aapt" name="android:fillColor">
+            <gradient
+                android:startX="4"
+                android:startY="4"
+                android:endX="104"
+                android:endY="104"
+                android:type="linear">
+                <item android:offset="0" android:color="@color/launcher_bg_start" />
+                <item android:offset="1" android:color="@color/launcher_bg_end" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M30,38h48a5,5 0 0 1 5,5v26a5,5 0 0 1 -5,5h-48a5,5 0 0 1 -5,-5v-26a5,5 0 0 1 5,-5z" />
+    <path
+        android:fillColor="#FFCBDBFF"
+        android:pathData="M25,46h58v5h-58z" />
+    <path
+        android:fillColor="#FF1B4FD8"
+        android:pathData="M45,59m-8,0a8,8 0 1,1 16,0a8,8 0 1,1 -16,0" />
+    <path
+        android:fillColor="#FF1B4FD8"
+        android:pathData="M50.8,64.8l7.5,7.5l-3.6,3.6l-7.5,-7.5z" />
+</vector>
